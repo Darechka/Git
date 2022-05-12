@@ -29,6 +29,9 @@ GitHub. HW_2
 	git push -u origin sql
 	git push -u origin charles
 	git push -u origin mobile_testing
+	
+	ИЛИ можно сделать это одной командой:
+	git push origin --all
 
 3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта
 	git checkout bug_reports 
