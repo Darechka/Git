@@ -1,14 +1,15 @@
 JSON
  4. Создать внешний репозиторий c названием JSON.
 	Захожу на github, создаю новый репозиторий:
-	Repositories --> New --> даю ему имя "JSON" --> отмечаю чекбокс "Add a README file" --> Create repository --> копирую ссылку на него.
+	Repositories --> New --> даю ему имя "JSON" --> отмечаю чекбокс "Add a README file" --> Create repository
 
  5. Клонировать репозиторий JSON на локальный компьютер.
 	Захожу в репозиторий --> Code --> Копирую ссылку --> git clone https://github.com/Darechka/JSON.git
 
  6. Внутри локального JSON создать файл “new.json”.
-	vim new.json --> Esc --> :wq --> Enter
-
+	cd json/
+	touch new.json
+	
  7. Добавить файл под гит.
 	git add new.json	или	git add .
 
@@ -55,13 +56,14 @@ JSON
 XML
  21. Создать внешний репозиторий c названием XML.
 	Захожу на github, создаю новый репозиторий:
-	Repositories --> New --> даю ему имя "XML" --> отмечаю чекбокс "Add a README file" --> Create repository --> копирую ссылку на него.
-
+	Repositories --> New --> даю ему имя "XML" --> отмечаю чекбокс "Add a README file" --> Create repository
+	
  22. Клонировать репозиторий XML на локальный компьютер.
 	Захожу в репозиторий --> Code --> Копирую ссылку --> git clone https://github.com/Darechka/XML.git
 
  23. Внутри локального XML создать файл “new.xml”.
-	vim new.xml --> :wq --> Enter
+	cd git/
+	touch new.xml
 
  24. Добавить файл под гит.
 	git add new.xml 	или 	git add .
@@ -88,13 +90,8 @@ XML
 	vim skills.xml --> i --> вношу необходимые данные в формате xml --> Esc --> :wq --> Enter
 
  32. Сделать коммит в одну строку.
-	Коммит в одну строку можно сделать только для файлов, которые ранее были добавлены через комнаду git add, поэтому в данном случае:
-	сначала пишу команду git add .
-	затем пишу git commit
+	git add .| git commit
 	
-	А чтобы в одну строку закоммитить файлы, которые РАНЕЕ были добавлены, но потом в них внесли изменения, используем команду:
-	git commit -am "comment" 
-
  33. Отправить сразу 2 файла на внешний репозиторий.
 	git push
 
@@ -122,7 +119,8 @@ XML
 	Захожу в репозиторий --> Code --> Копирую ссылку --> git clone https://github.com/Darechka/TXT.git
 
  3. Внутри локального TXT создать файл “new.txt”.
-	vim new.txt --> :wq --> Enter
+	cd txt/
+	touch new.txt
 
  4. Добавить файл под гит.
 	git add new.txt		или 	git add .
@@ -149,12 +147,7 @@ XML
 	vim skills.txt --> i --> вношу необходимые данные в формате txt --> Esc --> :wq --> Enter
 
  12. Сделать коммит в одну строку.
-	Коммит в одну строку можно сделать только для файлов, которые ранее были добавлены через комнаду git add, поэтому в данном случае:
-	сначала пишу команду git add .
-	затем пишу git commit
-	
-	А чтобы в одну строку закоммитить файлы, которые РАНЕЕ были добавлены, но потом в них внесли изменения, используем команду:
-	git commit -am "comment" 
+	git add .| git commit 
 
  13. Отправить сразу 2 файла на внешний репозиторий.
 	git push
