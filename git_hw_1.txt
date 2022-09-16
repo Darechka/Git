@@ -1,53 +1,54 @@
 JSON
  1. Создать внешний репозиторий c названием JSON.
-	Захожу на github, создаю новый репозиторий:
-	Repositories --> New --> даю ему имя "JSON" --> отмечаю чекбокс "Add a README file" --> Create repository
+	Go to github, create a new repository:
+	Repositories --> New --> name it "JSON" --> check "Add a README file" --> click on "Create repository"
 
  2. Клонировать репозиторий JSON на локальный компьютер.
-	Захожу в репозиторий --> Code --> Копирую ссылку --> git clone https://github.com/Darechka/JSON.git
+	Go the "JSON" repository --> click on "Code" --> Copy the https link --> type the following command in the terminal:
+	git clone https://github.com/Darechka/JSON.git
 
  3. Внутри локального JSON создать файл “new.json”.
 	cd json/
 	touch new.json
 	
  4. Добавить файл под гит.
-	git add new.json	или	git add .
+	git add new.json	or	git add .
 
  5. Закоммитить файл.
-	git commit -m "added new.json"
+	git commit -m "add new.json"
 
  6. Отправить файл на внешний GitHub репозиторий.
 	git push
 
  7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
-	 vim new.json --> i --> вношу необходимые данные в формате json --> Esc --> :wq --> Enter
+	 vim new.json --> press "i" on the keyboard --> enter data in json format --> Esc --> :wq --> Enter
 
  8. Отправить изменения на внешний репозиторий.
-	git commit -am "updated new.json" --> git push
+	git commit -am "update new.json" --> git push
 
  9. Создать файл preferences.json
 	vim preferences.json
 
  10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
-	i --> вношу необходимые данные в формате json --> Esc --> :wq --> Enter
+	press "i" on the keyboard --> enter data in json format --> Esc --> :wq --> Enter
 
  11. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
-	vim skills.json --> вношу необходимые данные в формате json --> Esc --> :wq --> Enter
+	vim skills.json --> press "i" on the keyboard --> enter data in json format --> Esc --> :wq --> Enter
 
  12. Отправить сразу 2 файла на внешний репозиторий.
-	git add . --> git commit -m "added preferences.json and skills.json" --> git push
+	git add . --> git commit -m "add preferences.json and skills.json" --> git push
 
  13. На веб интерфейсе создать файл bug_report.json.
-	Захожу на github в репозиторий JSON --> Add file --> Create new file --> даю файлу имя bug_report.json
+	Go to "JSON" repository on github --> Add file --> Create new file --> name it bug_report.json
 
  14. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-	Пишу комментарий "created bug_report.json" и нажимаю на кнопку "Commit new file"
+	Write a comment "create bug_report.json" --> click on "Commit new file"
 
  15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
-	Выбираю нужный файл --> нажимаю на иконку-карандашик --> добавляю баг-репорт в формате json
+	Select the correct file --> click on the pencil icon --> add a bug report in json format
 
  16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-	Пишу комментарий "updated bug_report.json" и нажимаю на кнопку "Commit changes"
+	Write a comment "updated bug_report.json" --> click on "Commit changes"
 
  17. Синхронизировать внешний и локальный репозиторий JSON
 	git pull
@@ -55,30 +56,31 @@ JSON
 
 XML
  1. Создать внешний репозиторий c названием XML.
-	Захожу на github, создаю новый репозиторий:
-	Repositories --> New --> даю ему имя "XML" --> отмечаю чекбокс "Add a README file" --> Create repository
+	Go to github, create a new repository:
+	Repositories --> New --> name it "XML" --> check "Add a README file" --> click on "Create repository"
 	
  2. Клонировать репозиторий XML на локальный компьютер.
-	Захожу в репозиторий --> Code --> Копирую ссылку --> git clone https://github.com/Darechka/XML.git
+	Go the "XML" repository --> click on "Code" --> Copy the https link --> type the following command in the terminal:
+	git clone https://github.com/Darechka/XML.git
 
  3. Внутри локального XML создать файл “new.xml”.
 	cd git/
 	touch new.xml
 
  4. Добавить файл под гит.
-	git add new.xml 	или 	git add .
+	git add new.xml 	or 	git add .
 	
  5. Закоммитить файл.
-	git commit -m "added new.xml"
+	git commit -m "add new.xml"
 
  6. Отправить файл на внешний GitHub репозиторий.
 	git push
 
  7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
- 	vim new.xml --> i --> вношу необходимые данные в формате xml --> Esc --> :wq --> Enter
+ 	vim new.xml --> press "i" on the keyboard --> enter data in xml format --> Esc --> :wq --> Enter
 
  8. Отправить изменения на внешний репозиторий.
-	git commit -am "updated new.xml" --> git push
+	git commit -am "update new.xml" --> git push
 
  9. Создать файл preferences.xml
 	vim preferences.xml
@@ -87,7 +89,7 @@ XML
  	i --> вношу необходимые данные в формате xml --> Esc --> :wq --> Enter
 
  11. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
-	vim skills.xml --> i --> вношу необходимые данные в формате xml --> Esc --> :wq --> Enter
+	vim skills.xml --> press "i" on the keyboard --> enter data in xml format --> Esc --> :wq --> Enter
 
  12. Сделать коммит в одну строку.
 	git add .| git commit
@@ -96,43 +98,44 @@ XML
 	git push
 
  14. На веб интерфейсе создать файл bug_report.xml.
-	Захожу на github в репозиторий XML --> Add file --> Create new file --> даю файлу имя bug_report.xml
+	Go to "XML" repository on github --> Add file --> Create new file --> name it bug_report.xml
 
  15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-	Пишу комментарий "created bug_report.xml" и нажимаю на кнопку "Commit new file".
+	Write a comment like "creat bug_report.xml" --> click on "Commit new file"
 
  16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
-	Выбираю нужный файл --> нажимаю на иконку-карандашик --> добавляю баг-репорт в формате xml.
+	Select the correct file --> click on the pencil icon --> add a bug report in xml format.
 
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-	Пишу комментарий "updated bug_report.xml" и нажимаю на кнопку "Commit changes"
+	Write a comment like "update bug_report.xml" --> click on "Commit changes"
 
  18. Синхронизировать внешний и локальный репозиторий XML
 	git pull
 
  TXT
  1. Создать внешний репозиторий c названием TXT.
-	Захожу на github, создаю новый репозиторий:
-	Repositories --> New --> даю ему имя "TXT" --> отмечаю чекбокс "Add a README file" --> Create repository 
+	Go to github, create a new repository:
+	Repositories --> New --> name it "TXT" --> check "Add a README file" --> click on "Create repository"
 
  2. Клонировать репозиторий TXT на локальный компьютер.
-	Захожу в репозиторий --> Code --> Копирую ссылку --> git clone https://github.com/Darechka/TXT.git
+	Go the "TXT" repository --> click on "Code" --> Copy the https link --> type the following command in the terminal:
+	git clone https://github.com/Darechka/TXT.git
 
  3. Внутри локального TXT создать файл “new.txt”.
 	cd txt/
 	touch new.txt
 
  4. Добавить файл под гит.
-	git add new.txt		или 	git add .
+	git add new.txt		or 	git add .
 
  5. Закоммитить файл.
-	git commit -m "added new.txt"
+	git commit -m "add new.txt"
 
  6. Отправить файл на внешний GitHub репозиторий.
 	git push
 
  7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
-	vim new.txt --> i --> вношу необходимые данные в формате txt --> Esc --> :wq --> Enter
+	vim new.txt --> press "i" on the keyboard --> enter data in txt format --> Esc --> :wq --> Enter
  
  8. Отправить изменения на внешний репозиторий.
 	git commit -am "updated new.txt" --> git push
@@ -144,7 +147,7 @@ XML
  	i --> вношу необходимые данные в формате txt --> Esc --> :wq --> Enter
 
  11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
-	vim skills.txt --> i --> вношу необходимые данные в формате txt --> Esc --> :wq --> Enter
+	vim skills.txt --> press "i" on the keyboard --> enter data in txt format --> Esc --> :wq --> Enter
 
  12. Сделать коммит в одну строку.
 	git add .| git commit 
@@ -153,16 +156,16 @@ XML
 	git push
 
  14. На веб интерфейсе создать файл bug_report.txt.
-	Захожу на github в репозиторий TXT --> Add file --> Create new file --> даю файлу имя bug_report.txt
+	Go to "TXT" repository on github --> Add file --> Create new file --> name it bug_report.txt
 
  15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-	Пишу комментарий "created bug_report.txt" и нажимаю на кнопку "Commit new file".
+	Write a commentlike "create bug_report.txt" --> click on "Commit new file".
 
  16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
-	Выбираю нужный файл --> нажимаю на иконку-карандашик --> добавляю баг-репорт в формате txt.
-
+	Select the correct file --> click on the pencil icon --> add a bug report in txt format.
+	
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-	Пишу комментарий "updated bug_report.txt" и нажимаю на кнопку "Commit changes"
+	Write a comment like "update bug_report.txt" --> click on "Commit changes"
 
  18. Синхронизировать внешний и локальный репозиторий TXT
 	git pull
